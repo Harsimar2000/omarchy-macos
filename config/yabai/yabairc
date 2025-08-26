@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+# Use bsp (binary space partitioning) layout
+yabai -m config layout bsp
+
+# Automatically balance windows when new ones are opened/closed
+yabai -m config auto_balance on
+
+# Window gaps and padding
+yabai -m config window_gap       8
+yabai -m config top_padding      0    # increase for menubar/notch space
+yabai -m config bottom_padding   0    # extra room for Dock shadow
+yabai -m config left_padding     0
+yabai -m config right_padding    0
+
+# Mouse follows focus
+yabai -m config focus_follows_mouse autoraise
+
+# Disable translucency to avoid "overlap" illusion
+yabai -m config active_window_opacity 1.0
+yabai -m config normal_window_opacity 1.0
+

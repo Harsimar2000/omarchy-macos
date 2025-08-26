@@ -12,3 +12,10 @@ The Browser of choice is Zen Browser.
 > If there is an already open instance of zen in one desktop and and you try to open it in another it takes you to the the previous (already open instance).
 
 > You can fix this ***system settings -> desktop and dock -> scroll all the way down -> mission control -> unselect (when switching to an application, switch to a space with open windows for the application)***
+
+### Yabai 
+It a tiling window manager used to automatically fit a new app when it opens. 
+
+### skhd  
+Used for hotkeys/keybindings. This is better than hammerspoon I think. 
+
